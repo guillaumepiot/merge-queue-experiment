@@ -14,6 +14,7 @@ def count_letters_fn(input):
 
 if __name__ == "__main__":
     
+    # Ensure an argument is sent first.
     try:
         input = sys.argv[1]
         print(count_letters_fn(input))
