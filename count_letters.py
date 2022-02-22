@@ -5,6 +5,8 @@ def count_letters_fn(input):
     letters = [char for char in input if char in string.ascii_letters]
     count = len(letters)
 
+    # Based on the number of letters present in this string,
+    # return a human friendly message.
     if count == 0:
         return f"Empty string!"
     elif count == 1:
