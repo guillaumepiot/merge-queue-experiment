@@ -2,6 +2,7 @@ import sys
 import string
 
 def count_letters_fn(input):
+    # Create a list of letters only
     letters = [char for char in input if char in string.ascii_letters]
     count = len(letters)
 
